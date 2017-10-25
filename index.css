@@ -1,0 +1,21 @@
+body
+{
+    background-image:url("pictures/background2.jpg");
+}
+
+.ship
+{
+    position: absolute;
+    left: 0;
+    bottom: 10vh;
+}
+
+.federation
+{
+    bottom: 10vh;
+}
+
+.rebel
+{
+    bottom: 30vh;
+}
