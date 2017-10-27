@@ -1,6 +1,8 @@
 body
 {
     background-image:url("pictures/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .ship
@@ -18,4 +20,19 @@ body
 .rebel
 {
     bottom: 30vh;
+}
+
+.logo
+{
+    position: absolute;
+    left: 50%;
+    bottom: 80%;
+}
+
+.end
+{
+    position:  absolute;
+    right: 0vh;
+    bottom: 5vh;
+    transform: scaleX(-1);
 }
