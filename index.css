@@ -15,18 +15,20 @@ body
 .federation
 {
     bottom: 10vh;
+    left: 0vw;
 }
 
 .rebel
 {
     bottom: 30vh;
+    left: 0vw;
 }
 
 .logo
 {
     position: absolute;
-    left: 50%;
-    bottom: 80%;
+    left: 40vw;
+    bottom: 80vh;
 }
 
 .end
