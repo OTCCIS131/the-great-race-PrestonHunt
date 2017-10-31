@@ -21,13 +21,13 @@ body
 .rebel
 {
     bottom: 30vh;
-    left: 0vw;
+    left: 0vh;
 }
 
 .logo
 {
     position: absolute;
-    left: 40vw;
+    left: 10vw;
     bottom: 80vh;
 }
 
@@ -37,4 +37,10 @@ body
     right: 0vh;
     bottom: 5vh;
     transform: scaleX(-1);
+}
+p
+{
+    text-align: center;
+    font-size: 200px;
+    color: darkblue;
 }

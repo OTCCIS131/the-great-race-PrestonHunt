@@ -14,11 +14,13 @@
 </head>
 
 <body>
-    <img src = "pictures\rebelLogo.png" alt = "Start" class="logo">
-    <img src="pictures\federationCruiser.png" alt="federation cruiser" class="ship federation">
-    <img src="pictures\rebelShip.png" alt="rebel FlagShip" class="ship rebel">
-    <img src="pictures\rebelFlagShip.png" alt="end" class = "end">
-
+    <div id="program">
+        <p>{{this.winner}}</p>
+        <img src = "pictures\rebelLogo.png" alt = "Start" @Click="raceStart" class="logo">
+        <img src="pictures\federationCruiser.png" alt="federation cruiser" v-bind:style = "{left: `${this.federation}vh`}"  class="ship federation">
+        <img src="pictures\rebelShip.png" alt="rebel" id="rebelStyle" v-bind:style = "{left: `${this.rebel}vh`}" class="ship rebel">
+        <img src="pictures\rebelFlagShip.png" alt="end" class = "end">
+    </div>
     <script src="https://unpkg.com/vue"></script>
     <script src="index.js"></script>
 </body>
